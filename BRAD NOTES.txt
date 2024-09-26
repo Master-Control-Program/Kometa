@@ -1,0 +1,17 @@
+.\kometa-venv\Scripts\activate 
+python kometa.py -r #to run the Script
+
+TMDB API key: 47efca155f975f09c0f217e1fd13698c
+
+to open cofig file:  notepad .\config\config.yml
+
+To log the output to a text file use this:   
+
+$timestamp = Get-Date -Format "yyyyMMdd_HHmmss"
+$logfile = "C:\logs\logfile_$timestamp.txt"
+python kometa.py -r | Out-File -FilePath $logfile
+
+
+coool configy.yml:  https://github.com/Kometa-Team/Community-Configs/blob/master/bullmoose20/config.yml
+
+create a file/directory: notepad "config/missing/Movies_report.yml"  (Missing Movies found here!)
